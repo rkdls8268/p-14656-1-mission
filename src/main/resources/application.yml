@@ -8,5 +8,8 @@ logging:
   level:
     com:
       back: debug
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
 server:
   port: 8080
